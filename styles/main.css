@@ -133,7 +133,7 @@ background:url('http://res.cloudinary.com/sushcloud/image/upload/v1496762786/2_q
 	color:pink;
 	font-weight:bold;
 	position:relative;
-	margin-left:400px;
+	margin-left:250px;
 	font-family:fantasy;
 	word-spacing:12;
 	float: left;
@@ -149,7 +149,17 @@ background:url('http://res.cloudinary.com/sushcloud/image/upload/v1496762786/2_q
 	word-spacing:12;
 	
 }
-
+#logo_img{
+	float: left;
+	position: relative;
+	left:0px;
+	width: 200px;
+}
+#img2{
+	
+	position:relative;
+	left:350px;" 
+}
 
 
 
