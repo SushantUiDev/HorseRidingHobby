@@ -1,0 +1,59 @@
+<html ng-app="horseRide">
+
+<head>
+	<title>Horse Riders</title>
+	<link href="styles/main.css" rel="stylesheet">
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="bower_components/angular/angular.js"></script>
+</head>
+
+<body style="background:url('http://res.cloudinary.com/sushcloud/image/upload/v1496762786/2_qw6etq.jpg');">
+	<div class="container-fluid">
+		<img src="images/7.gif" width="60px" height="60px;">
+		<p id="p1">Telang Brother's <strong>Horse Farm</strong></p>
+		<div id="box1" class="first_div">
+			
+			<img src="images/4.gif" width="50px" height="60px">
+			<!--<p style="font-size:18px;color:pink;font-weight:bold;">Lets rides</p>-->
+		</div>
+
+		<div style="width:100%;background:url('http://res.cloudinary.com/sushcloud/image/upload/v1496766639/5_qzhoaf.gif');height:50px;width:100%;background-repeat:repeat-x;">
+              
+		</div>
+  <br>
+		<div class="container-fluid">
+			<div ng-controller="headerCtrl as hc" ng-include="'app/header/header.tpl.html'" style="width:100%;">
+				
+			</div>
+			<!-- slider -->
+
+				<h1>3d images gallery</h1>
+				<div class="container">
+					<div id="carousel">
+						<figure><img src="http://res.cloudinary.com/sushcloud/image/upload/v1496762786/2_qw6etq.jpg" alt="" width="186px" height="116px"></figure>
+						<figure><img src="http://res.cloudinary.com/sushcloud/image/upload/v1496762786/2_qw6etq.jpg" alt="" width="186px" height="116px"></figure>
+						<figure><img src="http://res.cloudinary.com/sushcloud/image/upload/v1496762796/4_hqxkwk.jpg" alt="" width="186px" height="116px"></figure>
+						<figure><img src="http://res.cloudinary.com/sushcloud/image/upload/v1496762807/3_ih0qj8.jpg" alt="" width="186px" height="116px"></figure>
+						<figure><img src="http://res.cloudinary.com/sushcloud/image/upload/v1496762807/3_ih0qj8.jpg" alt="" width="186px" height="116px"></figure>
+						<figure><img src="http://res.cloudinary.com/sushcloud/image/upload/v1496762807/3_ih0qj8.jpg" alt="" width="186px" height="116px"></figure>
+						<figure><img src="http://res.cloudinary.com/sushcloud/image/upload/v1496762807/3_ih0qj8.jpg" alt="" width="186px" height="116px"></figure>
+						<figure><img src="http://res.cloudinary.com/sushcloud/image/upload/v1496762807/3_ih0qj8.jpg" alt="" width="186px" height="116px"></figure>
+						<figure><img src="http://res.cloudinary.com/sushcloud/image/upload/v1496762807/3_ih0qj8.jpg" alt="" width="186px" height="116px"></figure>
+					</div>
+				</div>
+
+
+				<!-- slider end -->
+		</div>
+	</div>
+	<script src="app/login/login.js"></script>
+	<script src="app/login/loginCtrl.js"></script>
+	<script src="app/header/header.js"></script>
+	<script src="app/header/headerCtrl.js"></script>
+
+	<script src="app/app.js"></script>
+</body>
+
+</html>
